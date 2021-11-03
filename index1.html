@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"> </script>
+    
+</head>
+<body style="background-color: #e0518c;">
+    <div style="margin-left: 50px;">
+        <h3 id="playr_1" style="display: inline-block;"></h3><span id="playr_1_score" style="margin-left: 10px;"></span>
+        <br>
+        <h3 id="playr_2" style="display: inline-block;"></h3><span id="playr_2_score" style="margin-left: 10px;"></span>
+    </div>
+
+    <div class="container">
+        <center>
+        <h1 style="color: white;"> The Math Quiz Game!</h1>
+         <h2>Question Turn - <span id="QT"></span></h2>
+         <h2>Answer Turn - <span id="AT"></span></h2>
+         <div id="output"></div>
+         <br>
+         <br>
+         <label>Number 1</label>
+         <br>
+         <input placeholder="Number 1" class="form-control" type="text" id="no1" style="width: 60%;">
+         <br>
+         <label>Number 2</label>
+         <br>
+         <input placeholder="Number 2" class="form-control" type="text" id="no2" style="width: 60%;">
+         <br>
+         <button type="button" class="btn btn-success" style="width: 40%;" onclick="send()">Send</button>
+        </center>
+    </div>
+<script src="main1.js"></script>
+</body>
+</html>

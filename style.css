@@ -1,0 +1,21 @@
+#login_div{
+     height: 400px;
+     background:linear-gradient(#add9fd 0%, #960441 100%);
+     float: none;
+     margin-top: -50px;
+     border-radius: 10px;
+}
+#output{
+     border-radius: 20px;
+     background-color: white;
+     border-top: 10px ridge rgb(173, 6, 6);
+     padding: 10px;
+     width: 80%;
+     text-align: left;
+ }
+ #check_btn{
+     background-color: deeppink;
+     border-style: ridge;
+     border-radius: 5px;
+     font-weight: 900;
+ }
